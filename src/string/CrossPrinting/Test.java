@@ -13,9 +13,9 @@ package string.CrossPrinting;
 import java.util.Scanner;
 public class Test {
     public static void main(String []abc){
-        Scanner s= new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.println("Enter the string");
-        String a= s.nextLine();
+        String a= scan.nextLine();
         new CrossPrint().start(a);
     }
 }
